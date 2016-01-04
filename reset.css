@@ -48,6 +48,8 @@ a, a:hover, a:active, a:link, a:visited { text-decoration: none; }
 figure { margin: 0; }
 img { vertical-align: middle; }
 
+img.pixel { image-rendering: optimizeSpeed; image-rendering: -moz-crisp-edges; image-rendering: -o-crisp-edges; image-rendering: -webkit-optimize-contrast; image-rendering: pixelated; image-rendering: optimize-contrast; -ms-interpolation-mode: nearest-neighbor; }
+
 .fade { opacity: 0; -webkit-transition: opacity 0.15s linear; -o-transition: opacity 0.15s linear; transition: opacity 0.15s linear; }
 .fade.in { opacity: 1; }
 .collapse { display: none; }
