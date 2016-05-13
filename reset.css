@@ -66,6 +66,7 @@ tbody.collapse.in { display: table-row-group; }
 .hide { display: none !important; }
 .show { display: block !important; }
 .hidden { display: none !important; visibility: hidden !important; }
+.ellipsis { white-space: nowrap; overflow: hidden; -ms-text-overflow: ellipsis; text-overflow: ellipsis; }
 
 @media (min-width: 768px) {
   .container { width: 750px; }
